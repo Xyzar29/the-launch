@@ -7,18 +7,21 @@
 **The Eruption** — a concert grand piano becomes the sea.
 
 On a dark stage, small in the lower-left of the frame, sits a grand piano
-with its lid thrown open. What comes out is not music but an ocean: one
-great curling wave of luminous water spirals up and lunges toward the
-viewer along a hard diagonal, spray and droplets flying at the camera.
-Inside the wave's glowing cyan core, golden koi swim among tiny bright
-constellations — the night sky, caught in the surf.
+with its lid thrown open — and the ocean is bursting out of it. Water
+jets straight up from inside the piano's body, sheet-music pages blast
+outward in every direction, and the piano bench lies tipped over from
+the force of it. The eruption becomes one colossal curling wave that
+towers over the instrument and breaks toward the viewer along a hard
+diagonal, spray and droplets flying at the camera. Inside the curl of
+the wave a golden core blazes like a rising sun, lighting the water
+from within, and three large koi twist in the current — the biggest of
+them launching out of the crest straight at you.
 
-The idea is the jolt of an ordinary, elegant object erupting into
-something far bigger than itself. One container, one eruption, one focal
-point: the piano is the quietest thing in the picture, and everything
-extraordinary in it is pouring out of the piano. Deep indigo-black
-background, cinematic rim light, and a silhouette that still reads at
-thumbnail size.
+The idea is cause and effect you can feel: an ordinary, elegant object
+erupting into something far bigger than itself. One container, one
+eruption, one focal point. Deep indigo-black vignette edges, a tight
+palette of indigo, turquoise and warm gold, and a silhouette that still
+reads at thumbnail size.
 
 `main.ts` is a tiny Node program (standard library only) that copies the
 committed `entry.png` into the output directory it is given.
