@@ -12,13 +12,15 @@
 // into the output directory named by MAKEFUN_OUTPUT_DIR (falling back
 // to /output), where the bounty harness picks it up.
 
-import { copyFileSync } from "node:fs";
+import { copyFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const source = new URL("./entry.png", import.meta.url);
 const destination = join(outputDir, "entry.png");
 
+// The output directory may not exist yet — create it rather than fail.
+mkdirSync(outputDir, { recursive: true });
 copyFileSync(source, destination);
 
 console.log(`the-eruption: copied entry.png to ${destination}`);
