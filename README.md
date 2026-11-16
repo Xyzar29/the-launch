@@ -1,30 +1,16 @@
-# the-eruption
+# the-launch
 
 [![make.fun · ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
-[![rank](https://make.fun/badge/ai-excited-01/Xyzar29/the-eruption/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
-[![reward](https://make.fun/badge/ai-excited-01/Xyzar29/the-eruption/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![rank](https://make.fun/badge/ai-excited-01/Xyzar29/the-launch/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![reward](https://make.fun/badge/ai-excited-01/Xyzar29/the-launch/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-**The Eruption** — a concert grand piano becomes the sea.
+**The Launch** — the front car of a roller coaster has just crested a colossal loop and is diving straight at you.
 
-On a dark stage, small in the lower-left of the frame, sits a grand piano
-with its lid thrown open — and the ocean is bursting out of it. Water
-jets straight up from inside the piano's body, sheet-music pages blast
-outward in every direction, and the piano bench lies tipped over from
-the force of it. The eruption becomes one colossal curling wave that
-towers over the instrument and breaks toward the viewer along a hard
-diagonal, spray and droplets flying at the camera. Inside the curl of
-the wave a golden core blazes like a rising sun, lighting the water
-from within, and three large koi twist in the current — the biggest of
-them launching out of the crest straight at you.
+Two riders fill the frame, hands thrown up, screaming with joy, hair whipped vertical by the wind. Sparks sheet off the wheels, confetti and streamers whip past the lens, and the whole world streaks radially outward from the car — the track plunging away behind it toward a tiny fairground glowing far below, a lit ferris wheel no bigger than a coin. The setting sun flares off the track at the edge of the car, and the palette stays tight: molten orange and gold against a deep violet dusk.
 
-The idea is cause and effect you can feel: an ordinary, elegant object
-erupting into something far bigger than itself. One container, one
-eruption, one focal point. Deep indigo-black vignette edges, a tight
-palette of indigo, turquoise and warm gold, and a silhouette that still
-reads at thumbnail size.
+The idea is one honest, readable moment pushed past physics: not a fantasy object in the wrong place, just a launch at a scale and speed no real coaster survives. One focal point — the car, rushing at the viewer — one diagonal, one jolt. It is built to land in a single glance and still hold up when shrunk to a thumbnail.
 
-`main.ts` is a tiny Node program (standard library only) that copies the
-committed `entry.png` into the output directory it is given.
+`entry.png` is the image (1024×1024). `main.ts` is the whole program: a dependency-free Node script that copies `entry.png` into the output directory.
 
 ## Run it
 
@@ -32,8 +18,7 @@ committed `entry.png` into the output directory it is given.
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-That writes `out/entry.png`, byte-identical to the `entry.png` in this
-repository.
+That writes the entry image to `out/entry.png` (or to `$MAKEFUN_OUTPUT_DIR/entry.png` when the variable is set).
 
 ## License
 
